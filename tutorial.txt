@@ -19,4 +19,9 @@ git config --global user.name "name"
 commit
 git remote add origin repositorylink
 git push origin master
-
+fork anothers account
+git clone other github code link-->it will download into our pc so that we can make changes for existing files
+git branch name
+git checkout name-->changes main into name
+git fetch --all --prune-->fetches the commited changes
+git rebase -i logno-->we can pick or sqash commits
