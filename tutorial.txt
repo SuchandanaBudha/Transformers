@@ -3,7 +3,7 @@ cd file name
 git init
 touch .txt-->creates tet file in the given file name folder
 git add .txt-->adds to git 
-commit -m "msg"-->commits a msg
+git commit -m "msg"-->commits a msg
 vi .txt-->adds data to the text file
 To save the file press esc then :x then enter
 cat .txt-->gives the content in text file
@@ -14,4 +14,9 @@ git reset logno.-->removes the changes before the logno.
 git stash-->not to commit but it should be present for future use
 git stash pop-->to get back the files to main stage
 git stash clear-->removes the files permanently
+git config --global user.email "mail"
+git config --global user.name "name"
+commit
+git remote add origin repositorylink
+git push origin master
 
